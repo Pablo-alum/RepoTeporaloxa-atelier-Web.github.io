@@ -4,13 +4,20 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="./css/master.css" charset="utf-8" />
+    <link
+      rel="shortcut icon"
+      href="./imagenes/Mesa_de_trabajo_1.png"
+      type="image/x-icon"
+    />
     <title>Oxa atelier</title>
   </head>
   <body>
     <div id="app">
       <div class="container">
         <nav class="navbar navbar-expand-lg navar-Color">
-          <a class="navbar-brand mx-3" href="#">Oxa atelier</a>
+          <a class="navbar-brand mx-3" href="#">
+            <img src="./imagenes/Mesa_de_trabajo_1.png" alt="" style="width:4rem;" />
+          </a>
           <button
             class="navbar-toggler mx-3"
             data-toggle="collapse"
@@ -46,21 +53,14 @@
         </nav>
       </div>
 
-      <div class="d-flex justify-content-center mt-4">
-
-        <div class="fondito container">
-        <h2 class="display-3 textito p-2">Madera para la vida</h2>
-        </div>
-      </div>
-
       <!--Carusel-->
-      <div class="justify-content-center d-flex ">
+      <div class="justify-content-center d-flex">
         <h2 class="m-3 textoResaltado display-5">Nuestros favoritos</h2>
       </div>
       <div class="d-flex justify-content-center">
         <div
           id="carouselExampleControls"
-          class="carousel slide w-50"
+          class="carousel slide"
           data-ride="carousel"
         >
           <div class="carousel-inner">
@@ -107,13 +107,13 @@
       </div>
       <!--Carusel final-->
       <div class="d-flex justify-content-center">
-        <h2 class="display-5  textoResaltado">Hechos de madera</h2>
+        <h2 class="display-5 textoResaltado">Hechos de madera</h2>
       </div>
       <div class="container">
         <div class="">
           <div class="row justify-content-center">
-            <div class="col-lg-3 col m-2" v-for="i in 9" key="i">
-              <div class="card h-100" style="width: 18rem; heigh=20rem">
+            <div class="col-lg-3 col-sm-5 m-2  d-flex justify-content-center" v-for="i in 9" key="i">
+              <div class="card h-100 cards" >
                 <img
                   class="card-img-top p-4"
                   src="./imagenes/Tabla_Madera1.jpeg"
