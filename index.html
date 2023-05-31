@@ -13,142 +13,119 @@
   </head>
   <body>
     <div id="app">
-      <div class="container">
-        <nav
-          class="navbar navbar-expand-sm d-flex justify-content-center fondoNegro"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNav"
-        >
-          <button
-            class="navbar-toggler btn mx-3"
+      <header>
+        <div class="container">
+          <nav
+            class="navbar navbar-expand-sm d-flex justify-content-center fondoNegro"
             type="button"
             data-toggle="collapse"
             data-target="#navbarNav"
           >
-            <span class="bi bi-justify text-light h1"></span>
-          </button>
-          <div
-            class="collapse navbar-collapse justify-content-end mx-3 justify-content-center"
-            id="navbarNav"
-          >
-            <ul class="navbar-nav">
-              <li class="nav-item justify-content-center d-flex">
-                <a class="nav-link textoBlanco" href="#">Inicio</a>
-                <i class="bi bi-house"></i>
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link justify-content-center d-flex textoBlanco"
-                  href="#"
-                  >Productos <i class="bi bi-bag mx-2"></i
-                ></a>
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link justify-content-center d-flex textoBlanco"
-                  href="#"
-                  >Contacto <i class="bi bi-person mx-1"></i>
-                </a>
-              </li>
-              <li class="nav-item justify-content-center d-flex">
-                <a class="nav-link textoBlanco" href="#"
-                  >Me gusta <i class="bi bi-heart mx-1"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </div>
-
-      <!--Vaner-->
-
-      <div class="container fondoNegro mt-4 p-3">
-        <div class="d-flex justify-content-center">
-          <img src="./imagenes/Mesa_de_trabajo_1.png" class="" alt="" />
+            <button
+              class="navbar-toggler btn mx-3"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNav"
+            >
+              <span class="bi bi-justify text-light h1"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse justify-content-end mx-3 justify-content-center"
+              id="navbarNav"
+            >
+              <ul class="navbar-nav">
+                <li class="nav-item justify-content-center d-flex">
+                  <a class="nav-link textoBlanco" href="#"
+                    >Inicio
+                    <i class="bi bi-house mx-2 textoBlanco"></i>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link justify-content-center d-flex textoBlanco"
+                    href="#"
+                    >Productos <i class="bi bi-bag mx-2"></i
+                  ></a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link justify-content-center d-flex textoBlanco"
+                    href="#"
+                    >Contacto <i class="bi bi-person mx-1"></i>
+                  </a>
+                </li>
+                <li class="nav-item justify-content-center d-flex">
+                  <a class="nav-link textoBlanco" href="#"
+                    >Me gusta <i class="bi bi-heart mx-1"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
         </div>
-      </div>
-      <!--Fin Vaner-->
-      <!--categorias -->
-      <div class="container">
-        <div class="row">
-          <a
-            class="m-3 fondoNegro p-3 col d-flex justify-content-center text-decoration-none"
-            type="button"
-            href="#escultura_de_madera"
-          >
-            <h3 class="textoBlanco textoResaltado h3">Escultura de madera</h3>
-          </a>
-          <a
-            class="m-3 fondoNegro p-3 col d-flex justify-content-center text-decoration-none"
-            type="button"
-            href="#Cerámica"
-          >
-            <h3 class="textoBlanco textoResaltado h3">Cerámica</h3>
-          </a>
-          <a
-            class="m-3 fondoNegro p-3 col d-flex justify-content-center text-decoration-none"
-            type="button"
-            href="#tabla_Madera"
-          >
-            <h3 class="textoBlanco textoResaltado h3">Tablas de madera</h3>
-          </a>
-        </div>
-      </div>
-      <!--Fin categorias-->
-      <div class="d-flex justify-content-center">
-        <h2
-          class="display-5 textoResaltado textoNegro"
-          id="escultura_de_madera"
-        >
-          Escultura de madera
-        </h2>
-      </div>
-      <div class="container">
-        <div class="row row-cols-2 row-col-sm-auto">
-          <div
-            class="col-lg-3 col-sm-4 my-3 d-flex justify-content-center pruba"
-            v-for="i in 5"
-            key="i"
-          >
-            <div class="card h-100">
+      </header>
+
+      <main>
+        <!--Baner-->
+        <div class="d-flex justify-content-center ">
+          <div class="fondoNegro mt-4 p-3 baner container rounded">
+            <div class="d-flex justify-content-center">
               <img
-                class="card-img-top p-4"
-                src="./imagenes/Tabla_Madera1.jpeg"
-                alt="Card image cap"
+                src="./imagenes/Mesa_de_trabajo_1.png"
+                class=""
+                alt=""
+                style="height: 10rem"
               />
-              <div class="card-body colorFondoBlanco textoBlanco">
-                <h5 class="card-text">150$</h5>
-                <h5 class="card-title">Escultura Oxa atelier {{i}}</h5>
-                <p class="card-text">
-                  Acá se pone un ejemplo de la maravillosa obra de arte
-                </p>
-              </div>
             </div>
           </div>
         </div>
-      </div>
-      <!--Echos de semaica-->
-      <div class="d-flex justify-content-center fondoNegro">
-        <h2 class="display-5 textoResaltado textoBlanco" id="Cerámica">
-          Cerámica
-        </h2>
-      </div>
-      <div class="fondoNegro">
+        <!--Fin Baner-->
+        <!--categorias -->
+        <div class="container">
+          <div class="row">
+            <a
+              class="m-3 fondoNegro p-3 col d-flex justify-content-center text-decoration-none rounded"
+              type="button"
+              href="#escultura_de_madera"
+            >
+              <h3 class="textoBlanco h3">Escultura de madera</h3>
+            </a>
+            <a
+              class="m-3 fondoNegro p-3 col d-flex justify-content-center text-decoration-none rounded"
+              type="button"
+              href="#Cerámica"
+            >
+              <h3 class="textoBlanco h3">Cerámica</h3>
+            </a>
+            <a
+              class="m-3 fondoNegro p-3 col d-flex justify-content-center text-decoration-none rounded"
+              type="button"
+              href="#tabla_Madera"
+            >
+              <h3 class="textoBlanco h3 rounded">Tablas de madera</h3>
+            </a>
+          </div>
+        </div>
+        <!--Fin categorias-->
+        <div class="d-flex justify-content-center">
+          <h2 class="display-5 textoNegro" id="escultura_de_madera">
+            Escultura de madera
+          </h2>
+        </div>
         <div class="container">
           <div class="row row-cols-2 row-col-sm-auto">
             <div
               class="col-lg-3 col-sm-4 my-3 d-flex justify-content-center pruba"
-              v-for="i in 4"
+              v-for="i in 5"
               key="i"
             >
-              <div class="card cardNegra h-100">
+              <div class="card h-100">
                 <img
                   class="card-img-top p-4"
-                  src="./imagenes/Cermaica.jpg"
+                  src="./imagenes/Tabla_Madera1.jpeg"
                   alt="Card image cap"
                 />
-                <div class="card-body colorFondoNegro textoNegro">
+                <div class="card-body colorFondoBlanco textoBlanco">
                   <h5 class="card-text">150$</h5>
                   <h5 class="card-title">Escultura Oxa atelier {{i}}</h5>
                   <p class="card-text">
@@ -159,39 +136,125 @@
             </div>
           </div>
         </div>
-      </div>
-
-      <!--Tablas de madera-->
-      <div class="d-flex justify-content-center">
-        <h2 class="display-5 textoResaltado textoNegro" id="tabla_Madera">
-          Tablas de madera
-        </h2>
-      </div>
-      <div class="container">
-        <div class="row row-cols-2 row-col-sm-auto">
-          <div
-            class="col-lg-3 col-sm-4 my-3 d-flex justify-content-center pruba"
-            v-for="i in 4"
-            key="i"
-          >
-            <div class="card h-100">
-              <img
-                class="card-img-top p-4"
-                src="./imagenes/Tabla_Madera2.jpg"
-                alt="Card image cap"
-              />
-              <div class="card-body colorFondoBlanco textoBlanco">
-                <h5 class="card-text">150$</h5>
-                <h5 class="card-title">Escultura Oxa atelier {{i}}</h5>
-                <p class="card-text">
-                  Acá se pone un ejemplo de la maravillosa obra de arte
-                </p>
+        <!--Echos de semaica-->
+        <div class="d-flex justify-content-center fondoNegro">
+          <h2 class="display-5 textoBlanco" id="Cerámica">Cerámica</h2>
+        </div>
+        <div class="fondoNegro">
+          <div class="container">
+            <div class="row row-cols-2 row-col-sm-auto">
+              <div
+                class="col-lg-3 col-sm-4 my-3 d-flex justify-content-center pruba"
+                v-for="i in 4"
+                key="i"
+              >
+                <div class="card cardNegra h-100">
+                  <img
+                    class="card-img-top p-4"
+                    src="./imagenes/Cermaica.jpg"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body colorFondoNegro textoNegro">
+                    <h5 class="card-text">150$</h5>
+                    <h5 class="card-title">Escultura Oxa atelier {{i}}</h5>
+                    <p class="card-text">
+                      Acá se pone un ejemplo de la maravillosa obra de arte
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <!--Final-->
+
+        <!--Tablas de madera-->
+        <div class="d-flex justify-content-center">
+          <h2 class="display-5 textoNegro" id="tabla_Madera">
+            Tablas de madera
+          </h2>
+        </div>
+        <div class="container">
+          <div class="row row-cols-2 row-col-sm-auto">
+            <div
+              class="col-lg-3 col-sm-4 my-3 d-flex justify-content-center pruba"
+              v-for="i in 4"
+              key="i"
+            >
+              <div class="card h-100">
+                <img
+                  class="card-img-top p-4"
+                  src="./imagenes/Tabla_Madera2.jpg"
+                  alt="Card image cap"
+                />
+                <div class="card-body colorFondoBlanco textoBlanco">
+                  <h5 class="card-text">150$</h5>
+                  <h5 class="card-title">Escultura Oxa atelier {{i}}</h5>
+                  <p class="card-text">
+                    Acá se pone un ejemplo de la maravillosa obra de arte
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <!--Final o pide de pagina-->
+
+      <footer class="text-center text-white fondoNegro">
+        <!-- Grid container -->
+        <div class="container pt-4">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a
+              class="btn btn-link btn-floating btn-lg m-1 textoBlanco"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="bi bi-facebook"></i
+            ></a>
+
+            <!-- Twitter -->
+            <a
+              class="btn btn-link btn-floating btn-lg m-1 textoBlanco"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="bi bi-whatsapp"></i
+            ></a>
+
+
+            <!-- Instagram -->
+            <a
+              class="btn btn-link btn-floating btn-lg textoBlanco m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="bi bi-instagram"></i
+            ></a>
+
+            <!-- Linkedin -->
+            <a
+              class="btn btn-link btn-floating btn-lg textoBlanco m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="bi bi-envelope-at"></i
+            ></a>
+            
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center textoBlanco p-3">
+          © 2023 Copyright:
+          <a class="textoBlanco">Oxa atelier</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <!--Final del pie de pagina-->
     </div>
     <!--Vue-->
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>

@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Domine&family=Lora:wght@600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 :root {
   --colorPrimario: #0f2034;
   --colorSecundario:#fff8de;
@@ -8,7 +7,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Domine", serif;
+font-family: 'Comfortaa', cursive;
 }
 
 body {
@@ -17,7 +16,7 @@ body {
 }
 
 .fondoNegro{
-  background-color: var(--colorPrimario);
+  background-color: var(--colorPrimario)!important;
 }
 
 .textoBlanco{
@@ -83,12 +82,11 @@ background-color: #152c47!important;
   top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-family: "EB Garamond", serif;
 }
-.textoResaltado {
-  font-family: "EB Garamond", serif;
-}
+.baner{
+  height: 15%!important;
 
+}
 .carousel {
   width: 50% !important;
 }
