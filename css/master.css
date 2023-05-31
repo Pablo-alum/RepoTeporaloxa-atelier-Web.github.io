@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
 :root {
-  --colorPrimario: #0f2034;
+  --colorPrimario: white;
   --colorSecundario: #F1F6F9;
 }
 
@@ -12,7 +12,6 @@
 
 body {
   background-color: var(--colorSecundario) !important;
-  background-color: white;
 }
 
 .fondoNegro {
@@ -20,11 +19,11 @@ body {
 }
 
 .textoBlanco {
-  color: var(--colorSecundario) !important;
+  color:  #0f2034 !important;
 }
 
 .textoNegro {
-  color: var(--colorPrimario) !important;
+  color: #0f2034 !important;
 }
 
 .colorFondoBlanco::before {
@@ -74,6 +73,7 @@ p {
 }
 .baner {
   height: 15% !important;
+  background-color:#152c47!important ;
 }
 
 .carousel {
