@@ -1,30 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
 :root {
   --colorPrimario: #0f2034;
-  --colorSecundario:#fff8de;
+  --colorSecundario: #F9FBE7;
 }
 
 * {
   margin: 0;
   padding: 0;
-font-family: 'Comfortaa', cursive;
+  font-family: "Comfortaa", cursive;
 }
 
 body {
-  background-color: var(--colorSecundario)!important;
+  background-color: var(--colorSecundario) !important;
   background-color: white;
 }
 
-.fondoNegro{
-  background-color: var(--colorPrimario)!important;
+.fondoNegro {
+  background-color: var(--colorPrimario) !important;
 }
 
-.textoBlanco{
-color: var(--colorSecundario)!important;
+.textoBlanco {
+  color: var(--colorSecundario) !important;
 }
 
-.textoNegro{
-color: var(--colorPrimario)!important;
+.textoNegro {
+  color: var(--colorPrimario) !important;
 }
 
 .colorFondoBlanco::before {
@@ -44,9 +44,6 @@ p {
   z-index: 1;
 }
 
-
-
-
 .colorFondoNegro::before {
   content: "";
   position: absolute;
@@ -64,18 +61,10 @@ p {
   z-index: 1;
 }
 
-
-
-
-
-
-
-.cardNegra{
-/* From https://css.glass */
-background-color: #152c47!important;
+.cardNegra {
+  /* From https://css.glass */
+  background-color: #152c47 !important;
 }
-
-
 
 .textito {
   position: absolute;
@@ -83,10 +72,10 @@ background-color: #152c47!important;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.baner{
-  height: 15%!important;
-
+.baner {
+  height: 15% !important;
 }
+
 .carousel {
   width: 50% !important;
 }
@@ -95,10 +84,12 @@ background-color: #152c47!important;
   height: 20rem;
 }
 
-.navbar-toggler:focus{
-box-shadow:none!important;
+.navbar-toggler:focus {
+  box-shadow: none !important;
 }
-
+.baner_imagen {
+  width: 10rem;
+}
 
 /*Media queries*/
 @media (max-width: 1312px) {
@@ -115,5 +106,27 @@ box-shadow:none!important;
   .card {
     width: 10rem;
     height: 15rem;
+  }
+  .baner_imagen {
+    width: 5rem;
+  }
+
+  .colorFondoBlanco::before {
+    content: "";
+    position: absolute;
+    top: 40%;
+    left: 0;
+    width: 100%;
+    height: 60%;
+    background-color: var(--colorPrimario);
+  }
+  .colorFondoNegro::before {
+    content: "";
+    position: absolute;
+    top: 40%;
+    left: 0;
+    width: 100%;
+    height: 60%;
+    background-color: var(--colorSecundario);
   }
 }
