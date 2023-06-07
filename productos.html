@@ -4,7 +4,6 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="./css/master.css" charset="utf-8" />
-    <link rel="stylesheet" href="./css/card.css" charset="utf-8" />
     <link
       rel="shortcut icon"
       href="./imagenes/Mesa_de_trabajo_1.png"
@@ -44,7 +43,7 @@
                 <li class="nav-item">
                   <a
                     class="nav-link justify-content-center d-flex textoBlanco"
-                    href="./productos.html"
+                    href="#"
                     >Productos <i class="bi bi-bag mx-2"></i
                   ></a>
                 </li>
@@ -143,9 +142,6 @@
           </div>
         </div>
         <!--Fin categorias-->
-        <div class="d-flex justify-content-center">
-          <h2 class="display-5 textoNegro" id="escultura_de_madera">Metal</h2>
-        </div>
 
         <div class="container">
           <!--linia 1-->
@@ -319,76 +315,6 @@
             </a>
           </div>
         </div>
-
-        <!--Echos de semaica-->
-        <div class="d-flex justify-content-center">
-          <h2 class="display-5 textoBlanco" id="Cerámica">Cerámica</h2>
-        </div>
-        <div class="bg-light">
-          <div class="container">
-            <div class="row row-cols-2 row-col-sm-auto">
-              <div
-                class="col-lg-3 col-sm-4 my-3 d-flex justify-content-center"
-                v-for="i in 4"
-                key="i"
-              >
-                <a
-                  :href="'./Detail_product.html?id=' + i"
-                  class="text-decoration-none"
-                >
-                  <div class="card h-100" type="button">
-                    <img
-                      class="card-img-top p-4"
-                      src="./imagenes/Cermaica.jpg"
-                      alt="Card image cap"
-                    />
-                    <div class="card-body textoNegro">
-                      <h5 class="card-title">Escultura Oxa atelier {{i}}</h5>
-                      <h5 class="card-text">150$</h5>
-                      <p class="card-text">
-                        Acá se pone un ejemplo de la maravillosa obra de arte
-                      </p>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!--Tablas de madera-->
-        <div class="d-flex justify-content-center">
-          <h2 class="display-5 textoNegro" id="tabla_Madera">Madera</h2>
-        </div>
-        <div class="container">
-          <div class="row row-cols-2 row-col-sm-auto">
-            <div
-              class="col-lg-3 col-sm-4 my-3 d-flex justify-content-center pruba"
-              v-for="i in 4"
-              key="i"
-            >
-              <a
-                :href="'./Detail_product.html?id=' + i"
-                class="text-decoration-none"
-              >
-                <div class="card h-100" type="button">
-                  <img
-                    class="card-img-top p-4"
-                    src="./imagenes/Tabla_Madera2.jpg"
-                    alt="Card image cap"
-                  />
-                  <div class="card-body colorFondoBlanco textoBlanco">
-                    <h5 class="card-title">Escultura Oxa atelier {{i}}</h5>
-                    <h5 class="card-text">150$</h5>
-                    <p class="card-text">
-                      Acá se pone un ejemplo de la maravillosa obra de arte
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
       </main>
       <!--Final o pide de pagina-->
 
@@ -446,6 +372,10 @@
       </footer>
       <!--Final del pie de pagina-->
     </div>
+    <!--axios-->
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <!--Vue-->
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="./javascript/main.js" charset="utf-8"></script>

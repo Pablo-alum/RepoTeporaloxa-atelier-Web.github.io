@@ -1,0 +1,323 @@
+[
+  {
+    "id": 1,
+    "nombre": "Mesa de centro",
+    "precio": 2500,
+    "imagen": "./imagenes/Ceramica.jpg",
+    "categoria": "Deco",
+    "descripcion": "Una mesa de centro elegante y funcional, ideal para colocar en el centro de tu sala de estar. Su diseño moderno combina con cualquier estilo de decoración."
+  },
+  {
+    "id": 2,
+    "nombre": "Sillón",
+    "precio": 5000,
+    "imagen": "./imagenes/Ceramica.jpg",
+    "categoria": "Muebles",
+    "descripcion": "Un cómodo y acogedor sillón, perfecto para relajarse después de un largo día. Su tapizado de alta calidad garantiza durabilidad y confort."
+  },
+  {
+    "id": 3,
+    "nombre": "Estantería",
+    "precio": 3500,
+    "imagen": "./imagenes/Ceramica.jpg",
+    "categoria": "Deco",
+    "descripcion": "Una estantería versátil y espaciosa, ideal para organizar tus libros, adornos y objetos decorativos. Su diseño minimalista se adapta a cualquier ambiente."
+  },
+  {
+    "id": 4,
+    "nombre": "Lámpara de pie",
+    "precio": 1200,
+    "imagen": "./imagenes/Ceramica.jpg",
+    "categoria": "Deco",
+    "descripcion": "Una lámpara de pie moderna y elegante que proporciona una iluminación suave y cálida. Perfecta para crear un ambiente acogedor en cualquier habitación."
+  },
+  {
+    "id": 5,
+    "nombre": "Mesa de comedor",
+    "precio": 6000,
+    "imagen": "./imagenes/Ceramica.jpg",
+    "categoria": "Muebles",
+    "descripcion": "Una mesa de comedor espaciosa y resistente, ideal para disfrutar de deliciosas comidas en familia o con amigos. Su diseño elegante añade un toque sofisticado al espacio."
+  },
+  {
+    "id": 6,
+    "nombre": "Silla",
+    "precio": 800,
+    "imagen": "./imagenes/Ceramica.jpg",
+    "categoria": "Muebles",
+    "descripcion": "Una silla ergonómica y confortable, perfecta para usar en el comedor, la oficina o cualquier otra área de tu hogar. Disponible en varios colores y estilos."
+  },
+  {
+    "id": 7,
+    "nombre": "Espejo decorativo",
+    "precio": 2000,
+    "imagen": "./imagenes/Ceramica.jpg",
+    "categoria": "Deco",
+    "descripcion": "Un espejo decorativo con un marco elegante y detallado. Añade estilo y amplitud visual a cualquier habitación, siendo un elemento decorativo imprescindible."
+  },
+  {
+    "id": 8,
+    "nombre": "Sofá",
+    "precio": 7000,
+    "imagen": "./imagenes/Ceramica.jpg",
+    "categoria": "Muebles",
+    "descripcion": "Un sofá amplio y confortable, perfecto para relajarse y disfrutar de momentos de descanso. Su diseño moderno y cojines mullidos brindan una experiencia de máximo confort."
+  },
+  {
+    "id": 9,
+    "nombre": "Cuadro abstracto",
+    "precio": 1500,
+    "imagen": "./imagenes/Ceramica.jpg",
+    "categoria": "Cuadros",
+    "descripcion": "Un cuadro abstracto con colores vibrantes y formas abstractas. Añade un toque artístico y contemporáneo a cualquier pared, convirtiéndose en el centro de atención."
+  },
+  {
+    "id": 10,
+    "nombre": "Almohadón decorativo",
+    "precio": 500,
+    "imagen": "./imagenes/Ceramica.jpg",
+    "categoria": "Almohadones",
+    "descripcion": "Un almohadón decorativo con un diseño único y textura suave. Agrega confort y estilo a tu sofá, cama o silla, brindando un toque de personalidad a la decoración."
+  },
+  {
+    "id": 11,
+    "nombre": "Escritorio",
+    "precio": 4000,
+    "imagen": "./imagenes/Ceramica.jpg",
+    "categoria": "Muebles",
+    "descripcion": "Un escritorio funcional y elegante, perfecto para trabajar o estudiar. Cuenta con amplio espacio de almacenamiento y un diseño moderno que se adapta a cualquier ambiente."
+  },
+  {
+    "id": 12,
+    "nombre": "Reloj de pared",
+    "precio": 800,
+    "imagen": "./imagenes/Ceramica.jpg",
+    "categoria": "Deco",
+    "descripcion": "Un reloj de pared de diseño minimalista que combina funcionalidad y estilo. Añade un toque moderno y sofisticado a cualquier habitación, manteniendo el control del tiempo."
+  },
+  {
+    "id": 13,
+    "nombre": "Mesa auxiliar",
+    "precio": 1500,
+    "imagen": "./imagenes/Ceramica.jpg",
+    "categoria": "Muebles",
+    "descripcion": "Una mesa auxiliar compacta y versátil, ideal para colocar al lado del sofá o la cama. Su diseño funcional permite tener a mano los objetos necesarios en cualquier momento."
+  },
+  {
+    "id": 14,
+    "nombre": "Cojín decorativo",
+    "precio": 300,
+    "imagen": "./imagenes/Ceramica.jpg",
+    "categoria": "Almohadones",
+    "descripcion": "Un cojín decorativo con estampados y texturas variadas. Agrega un toque de color y confort a tus espacios, creando un ambiente acogedor y personalizado."
+  },
+  {
+    "id": 15,
+    "nombre": "Aparador",
+    "precio": 7000,
+    "imagen": "./imagenes/Ceramica.jpg",
+    "categoria": "Muebles",
+    "descripcion": "Un aparador espacioso y elegante, perfecto para almacenar vajillas, cubiertos u otros objetos. Su diseño sofisticado añade un toque de lujo y organización al espacio."
+  },
+  {
+    "id": 16,
+    "nombre": "Cuadro paisaje",
+    "precio": 1200,
+    "imagen": "./imagenes/Ceramica.jpg",
+    "categoria": "Cuadros",
+    "descripcion": "Un cuadro que muestra un hermoso paisaje natural, capturando la esencia y la serenidad de la naturaleza. Crea un ambiente tranquilo y relajante en cualquier habitación."
+  },
+  {
+    "id": 17,
+    "nombre": "Mesa de noche",
+    "precio": 2000,
+    "imagen": "./imagenes/Ceramica.jpg",
+    "categoria": "Muebles",
+    "descripcion": "Una mesa de noche práctica y elegante, perfecta para colocar al lado de la cama. Cuenta con espacio de almacenamiento y un diseño que complementa cualquier estilo de dormitorio."
+  },
+  {
+    "id": 18,
+    "nombre": "Maceta decorativa",
+    "precio": 500,
+    "imagen": "./imagenes/Ceramica.jpg",
+    "categoria": "Deco",
+    "descripcion": "Una maceta decorativa con un diseño único y moderno. Ideal para dar vida a tus plantas y flores, agregando un toque de frescura y naturaleza a cualquier espacio."
+  },
+  {
+    "id": 19,
+    "nombre": "Mesa de centro",
+    "precio": 2500,
+    "imagen": "./imagenes/Ceramica.jpg",
+    "categoria": "Deco",
+    "descripcion": "Una mesa de centro elegante y funcional, ideal para colocar en el centro de tu sala de estar. Su diseño moderno combina con cualquier estilo de decoración."
+  },
+  {
+    "id": 20,
+    "nombre": "Sillón",
+    "precio": 5000,
+    "imagen": "./imagenes/Ceramica.jpg",
+    "categoria": "Muebles",
+    "descripcion": "Un cómodo y acogedor sillón, perfecto para relajarse después de un largo día. Su tapizado de alta calidad garantiza durabilidad y confort."
+  },
+  {
+    "id": 21,
+    "nombre": "Estantería",
+    "precio": 3500,
+    "imagen": "./imagenes/Ceramica.jpg",
+    "categoria": "Deco",
+    "descripcion": "Una estantería versátil y espaciosa, ideal para organizar tus libros, adornos y objetos decorativos. Su diseño minimalista se adapta a cualquier ambiente."
+  },
+  {
+    "id": 22,
+    "nombre": "Lámpara de pie",
+    "precio": 1200,
+    "imagen": "./imagenes/Ceramica.jpg",
+    "categoria": "Deco",
+    "descripcion": "Una lámpara de pie moderna y elegante que proporciona una iluminación suave y cálida. Perfecta para crear un ambiente acogedor en cualquier habitación."
+  },
+  {
+    "id": 23,
+    "nombre": "Mesa de comedor",
+    "precio": 6000,
+    "imagen": "./imagenes/Ceramica.jpg",
+    "categoria": "Muebles",
+    "descripcion": "Una mesa de comedor espaciosa y resistente, ideal para disfrutar de deliciosas comidas en familia o con amigos. Su diseño elegante añade un toque sofisticado al espacio."
+  },
+  {
+    "id": 24,
+    "nombre": "Silla",
+    "precio": 800,
+    "imagen": "./imagenes/Ceramica.jpg",
+    "categoria": "Muebles",
+    "descripcion": "Una silla ergonómica y confortable, perfecta para usar en el comedor, la oficina o cualquier otra área de tu hogar. Disponible en varios colores y estilos."
+  },
+  {
+    "id": 25,
+    "nombre": "Espejo decorativo",
+    "precio": 2000,
+    "imagen": "./imagenes/Ceramica.jpg",
+    "categoria": "Deco",
+    "descripcion": "Un espejo decorativo con un marco elegante y detallado. Añade estilo y amplitud visual a cualquier habitación, siendo un elemento decorativo imprescindible."
+  },
+  {
+    "id": 26,
+    "nombre": "Sofá",
+    "precio": 7000,
+    "imagen": "./imagenes/Ceramica.jpg",
+    "categoria": "Muebles",
+    "descripcion": "Un sofá amplio y confortable, perfecto para relajarse y disfrutar de momentos de descanso. Su diseño moderno y cojines mullidos brindan una experiencia de máximo confort."
+  },
+  {
+    "id": 27,
+    "nombre": "Cuadro abstracto",
+    "precio": 1500,
+    "imagen": "./imagenes/Ceramica.jpg",
+    "categoria": "Cuadros",
+    "descripcion": "Un cuadro abstracto con colores vibrantes y formas abstractas. Añade un toque artístico y contemporáneo a cualquier pared, convirtiéndose en el centro de atención."
+  },
+  {
+    "id": 28,
+    "nombre": "Almohadón decorativo",
+    "precio": 500,
+    "imagen": "./imagenes/Ceramica.jpg",
+    "categoria": "Almohadones",
+    "descripcion": "Un almohadón decorativo con un diseño único y textura suave. Agrega confort y estilo a tu sofá, cama o silla, brindando un toque de personalidad a la decoración."
+  },
+  {
+    "id": 29,
+    "nombre": "Escritorio",
+    "precio": 4000,
+    "imagen": "./imagenes/Ceramica.jpg",
+    "categoria": "Muebles",
+    "descripcion": "Un escritorio funcional y elegante, perfecto para trabajar o estudiar. Cuenta con amplio espacio de almacenamiento y un diseño moderno que se adapta a cualquier ambiente."
+  },
+  {
+    "id": 30,
+    "nombre": "Reloj de pared",
+    "precio": 800,
+    "imagen": "./imagenes/Ceramica.jpg",
+    "categoria": "Deco",
+    "descripcion": "Un reloj de pared de diseño minimalista que combina funcionalidad y estilo. Añade un toque moderno y sofisticado a cualquier habitación, manteniendo el control del tiempo."
+  },
+  {
+    "id": 31,
+    "nombre": "Mesa auxiliar",
+    "precio": 1500,
+    "imagen": "./imagenes/Ceramica.jpg",
+    "categoria": "Muebles",
+    "descripcion": "Una mesa auxiliar compacta y versátil, ideal para colocar al lado del sofá o la cama. Su diseño funcional permite tener a mano los objetos necesarios en cualquier momento."
+  },
+  {
+    "id": 32,
+    "nombre": "Cojín decorativo",
+    "precio": 300,
+    "imagen": "./imagenes/Ceramica.jpg",
+    "categoria": "Almohadones",
+    "descripcion": "Un cojín decorativo con estampados y texturas variadas. Agrega un toque de color y confort a tus espacios, creando un ambiente acogedor y personalizado."
+  },
+  {
+    "id": 33,
+    "nombre": "Aparador",
+    "precio": 7000,
+    "imagen": "./imagenes/Ceramica.jpg",
+    "categoria": "Muebles",
+    "descripcion": "Un aparador espacioso y elegante, perfecto para almacenar vajillas, cubiertos u otros objetos. Su diseño sofisticado añade un toque de lujo y organización al espacio."
+  },
+  {
+    "id": 34,
+    "nombre": "Cuadro paisaje",
+    "precio": 1200,
+    "imagen": "./imagenes/Ceramica.jpg",
+    "categoria": "Cuadros",
+    "descripcion": "Un cuadro que muestra un hermoso paisaje natural, capturando la esencia y la serenidad de la naturaleza. Crea un ambiente tranquilo y relajante en cualquier habitación."
+  },
+  {
+    "id": 35,
+    "nombre": "Mesa de noche",
+    "precio": 2000,
+    "imagen": "./imagenes/Ceramica.jpg",
+    "categoria": "Muebles",
+    "descripcion": "Una mesa de noche práctica y elegante, perfecta para colocar al lado de la cama. Cuenta con espacio de almacenamiento y un diseño que complementa cualquier estilo de dormitorio."
+  },
+  {
+    "id": 36,
+    "nombre": "Maceta decorativa",
+    "precio": 500,
+    "imagen": "./imagenes/Ceramica.jpg",
+    "categoria": "Deco",
+    "descripcion": "Una maceta decorativa con un diseño único y moderno. Ideal para dar vida a tus plantas y flores, agregando un toque de frescura y naturaleza a cualquier espacio."
+  },
+  {
+    "id": 37,
+    "nombre": "Mesa de centro",
+    "precio": 2500,
+    "imagen": "./imagenes/Ceramica.jpg",
+    "categoria": "Deco",
+    "descripcion": "Una mesa de centro elegante y funcional, ideal para colocar en el centro de tu sala de estar. Su diseño moderno combina con cualquier estilo de decoración."
+  },
+  {
+    "id": 38,
+    "nombre": "Sillón",
+    "precio": 5000,
+    "imagen": "./imagenes/Ceramica.jpg",
+    "categoria": "Muebles",
+    "descripcion": "Un cómodo y acogedor sillón, perfecto para relajarse después de un largo día. Su tapizado de alta calidad garantiza durabilidad y confort."
+  },
+  {
+    "id": 39,
+    "nombre": "Estantería",
+    "precio": 3500,
+    "imagen": "./imagenes/Ceramica.jpg",
+    "categoria": "Deco",
+    "descripcion": "Una estantería versátil y espaciosa, ideal para organizar tus libros, adornos y objetos decorativos. Su diseño minimalista se adapta a cualquier ambiente."
+  },
+  {
+    "id": 40,
+    "nombre": "Lámpara de pie",
+    "precio": 1200,
+    "imagen": "./imagenes/Ceramica.jpg",
+    "categoria": "Deco",
+    "descripcion": "Una lámpara de pie moderna y elegante que proporciona una iluminación suave y cálida. Perfecta para crear un ambiente acogedor en cualquier habitación."
+  }
+]
+

@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
 :root {
   --colorPrimario: white;
-  --colorSecundario: #F1F6F9;
+  --colorSecundario: #f1f6f9;
 }
 
 * {
@@ -19,7 +19,7 @@ body {
 }
 
 .textoBlanco {
-  color:  #0f2034 !important;
+  color: #0f2034 !important;
 }
 
 .textoNegro {
@@ -63,7 +63,6 @@ p {
   z-index: 1;
 }
 
-
 .textito {
   position: absolute;
   top: 30%;
@@ -72,7 +71,7 @@ p {
 }
 .baner {
   height: 15% !important;
-  background-color:#152c47!important ;
+  background-color: #152c47 !important ;
 }
 
 .carousel {
@@ -89,6 +88,72 @@ p {
 .baner_imagen {
   width: 10rem;
 }
+
+.scale-up-center:hover {
+	-webkit-animation: scale-up-center 0.4s ;
+	        animation: scale-up-center 0.4s ;
+}
+
+
+
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+
+.shadow-drop-2-center:hover {
+	-webkit-animation: shadow-drop-2-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: shadow-drop-2-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+
+
+@-webkit-keyframes shadow-drop-2-center {
+  0% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+            box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    -webkit-transform: translateZ(50px);
+            transform: translateZ(50px);
+    -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+            box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+  }
+}
+@keyframes shadow-drop-2-center {
+  0% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+            box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    -webkit-transform: translateZ(50px);
+            transform: translateZ(50px);
+    -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+            box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+  }
+}
+
 
 /*Media queries*/
 @media (max-width: 1312px) {
@@ -109,5 +174,4 @@ p {
   .baner_imagen {
     width: 5rem;
   }
-
 }
