@@ -3,7 +3,7 @@ createApp({
   data() {
     return {
       message: "Hello Vue!",
-     //urlApi:"./javascript/prubas.json",
+     urlApi:"./javascript/prubas.json",
     productos:[]
     };
   },
