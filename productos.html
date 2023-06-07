@@ -69,21 +69,22 @@
       <main>
         <div class="bg-light">
           <div class="container">
-            <div class="row row-cols-2 ">
+            <div class="row row-cols-2 row-col-sm-auto">
               <div
-                class="col-lg-3 col-sm-2 d-flex my-2  justify-content-center"
+                class="col-lg-3 col-sm-4 my-3  d-flex justify-content-center"
+
                 v-for="(producto, index1,) in productos"
                 key="producto.id"
               >
                 <a
-                  href="'./Detail_product.html?id=' + producto.id "
+                  :href="'./Detail_product.html?id=' + producto.id "
                   class="text-decoration-none d-flex"
                 >
                   <div
                     class="shadow-drop-2-center scale-up-center rounded p-3 border"
                     type="button"
 
-                    :class="[ {'item1 d-flex ': isThirdItem1(index1)}, {'item2': isThirdItem2(index1)} ,{'item3': isThirdItem3(index1)}]"
+                    :class="[ {'item1': isThirdItem1(index1)}, {'item2': isThirdItem2(index1)} ,{'item3': isThirdItem3(index1)}]"
                   >
                     <img
                       class="card-img-top p-4"
