@@ -2,27 +2,25 @@ const { createApp } = Vue;
 createApp({
   data() {
     return {
-      message: "Hello Vue!",
       urlApi: "./javascript/prubas.json",
-      productos: [],
-      categorias:false,
-      categoriaMostrada:"Deco",
+      id: new URLSearchParams(location.search).get("id"),
+      infomacion: [],
     };
   },
   created() {
     this.Datos_Cargados(this.urlApi);
   },
-  mounted() {},
+  mounted() {
+
+  },
   methods: {
+
     //Datos cargados
     Datos_Cargados(url) {
       axios.get(url).then((response) => {
-        this.productos = response.data;
+        this.infomacion = response.data.find(producto => producto.id == this.id)
       });
+
     },
-    
-    mostrarCategoria(categoria) {
-      this.categoriaMostrada = categoria;
-    }
   },
 }).mount("#app");
