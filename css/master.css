@@ -1,5 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
+
+
 :root {
   --colorPrimario: white;
   --colorSecundario: #f1f6f9;
@@ -9,12 +10,21 @@
   margin: 0;
   padding: 0;
   font-family: "Handlee", cursive;
+  font-display: swap;
 }
 
 body {
   background-color: var(--colorSecundario) !important;
 }
-
+.glass{
+  /* From https://css.glass */
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0.13);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(2.9px);
+-webkit-backdrop-filter: blur(2.9px);
+}
 .fondoNegro {
   background-color: var(--colorPrimario) !important;
 }
